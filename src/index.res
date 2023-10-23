@@ -1,3 +1,5 @@
+%%raw("import './style.css'")
+
 switch ReactDOM.querySelector("#root") {
 | Some(rootElement) => {
     let root = ReactDOM.Client.createRoot(rootElement)
