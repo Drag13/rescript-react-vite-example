@@ -1,0 +1,22 @@
+{
+  "name": "rescript-vite-test",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "res:build": "rescript",
+    "res:dev": "rescript build -with-deps -w"
+  },
+  "devDependencies": {
+    "@rescript/react": "^0.11.0",
+    "rescript": "^10.1.4",
+    "vite": "^3.2.3"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  }
+}
