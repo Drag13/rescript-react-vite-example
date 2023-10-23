@@ -7,8 +7,9 @@
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview",
-    "res:build": "rescript",
-    "res:dev": "rescript build -with-deps -w"
+    "build:res": "rescript",
+    "dev:res": "rescript build -with-deps -w",
+    "clean:res": "rescript clean"
   },
   "devDependencies": {
     "@rescript/react": "^0.11.0",
